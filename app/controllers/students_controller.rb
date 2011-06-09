@@ -25,7 +25,8 @@ class StudentsController < ApplicationController
   # GET /students/new.json
   def new
     @student = Student.new
-
+   
+    # Add comment
     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @student }

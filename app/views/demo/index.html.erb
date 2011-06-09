@@ -1,0 +1,8 @@
+<%
+text = "This is my text".html_safe
+%>
+
+<h1>Demo#index</h1>   
+<p>Find me in app/views/demo/index.html.erb</p>
+<%= highlight text, "is", :highlighter => "<em>\1</em>", %>    
+<br/>

@@ -1,11 +1,10 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0.rc1'
+gem 'rails', '3.1.0.rc3'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
- 
-gem 'rake', '0.9.1'
+
 gem 'mysql2'
 
 # Asset template engines
